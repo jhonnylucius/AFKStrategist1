@@ -4,17 +4,114 @@
 </BR>
 Este guia vai te ajudar a iniciar um projeto Spring Boot do zero, configurar as ferramentas necessárias e preparar o ambiente de desenvolvimento para começar a codificar. Vamos passar por cada etapa, desde a criação do projeto até a instalação das ferramentas essenciais, como Java, PostgreSQL, Docker, Angular, entre outras.</BR>
 </BR>
-🛠️ Tecnologias Utilizadas</BR>
-</BR>
-<p align="center"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50px" alt="Java"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="50px" alt="Spring Boot"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="50px" alt="PostgreSQL"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50px" alt="Docker"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="50px" alt="Angular"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50px" alt="Node.js"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="50px" alt="IntelliJ"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50px" alt="VS Code"/> </p></BR>
+
+
+## 🔧 Tecnologias Utilizadas
+
+### 1. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40px"/> **Java**
+Java é a linguagem de programação principal usada no desenvolvimento do backend do projeto.
+
+---
+
+### 2. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="40px"/> **Spring Framework**
+Spring é um framework que facilita o desenvolvimento de aplicativos Java, especialmente os baseados em web.
+
+---
+
+### 3. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40px"/> **PostgreSQL**
+PostgreSQL é o banco de dados utilizado para armazenar as informações da aplicação de forma segura e eficiente.
+
+---
+
+### 4. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="40px"/> **Angular**
+Angular é o framework utilizado para o desenvolvimento da interface gráfica (frontend) do projeto.
+
+---
+
+### 5. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40px"/> **Node.js**
+Node.js é usado para executar o Angular e gerenciar pacotes no projeto frontend.
+
+---
+
+### 6. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40px"/> **Docker**
+Docker é utilizado para criar containers que isolam o ambiente de desenvolvimento, facilitando a portabilidade e escalabilidade do sistema.
+
+---
+
+### 7. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="40px"/> **IntelliJ IDEA**
+IntelliJ IDEA é a IDE principal usada para desenvolvimento do backend Java com o framework Spring.
+
+---
+
+### 8. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40px"/> **Visual Studio Code**
+VS Code é a IDE usada para o desenvolvimento frontend com Angular e edição de arquivos de configuração do projeto.
+
+---
+
+### 9. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40px"/> **WSL (Windows Subsystem for Linux)**
+O WSL é utilizado para rodar o ambiente Linux diretamente no Windows, proporcionando melhor compatibilidade com Docker e outras ferramentas Linux.
+
+---
+
+### 10. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40px"/> **AWS S3**
+O AWS S3 é o serviço de armazenamento de objetos da Amazon, utilizado para armazenar imagens e outros arquivos da aplicação.
+
+---
+
+### 11. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40px"/> **GitHub**
+GitHub é a plataforma usada para versionamento de código, facilitando o trabalho colaborativo e o gerenciamento do código-fonte.
+
+---
+
+### 12. <img src="https://avatars.githubusercontent.com/u/44036562?s=200&v=4" width="40px"/> **GitHub Actions**
+GitHub Actions é usado para configurar o CI/CD (integração contínua e entrega contínua), automatizando o processo de build, testes e deploy.
+
+---
+
+### 13. <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="40px"/> **Google Cloud**
+Google Cloud é a plataforma de nuvem onde o aplicativo será implantado, proporcionando escalabilidade e recursos de infraestrutura.
+
+---
+
 </BR>
 🔧 Preparando o Projeto Spring Boot</BR>
 </BR>
 1. Acesse o Spring Initializr
 </BR>
+Configuração do Projeto Maven</BR>
+</BR>
 Você será direcionado para a tela abaixo, onde deve configurar o projeto. Escolha a linguagem Java, o tipo de projeto Maven, e as dependências principais como Spring Web, Spring Data JPA, Lombok, e outras que precisar.
 </BR>
-<img src="/mnt/data/image.png" alt="Spring Initializr" style="border:1px solid gray;"/>
+
+Dependências principais a serem selecionadas:</BR>
+
+Spring Web: Para criar APIs RESTful e aplicações web com o Spring MVC.</BR>
+
+Spring Data JPA: Para facilitar a integração com o banco de dados relacional usando JPA/Hibernate.</BR>
+
+Spring Security: Para adicionar segurança e controle de autenticação e autorização.</BR>
+
+Spring Thymeleaf: Para renderizar views HTML no lado do servidor com o motor de templates Thymeleaf.</BR>
+
+Spring Actuator: Para monitorar e gerenciar sua aplicação em produção.</BR>
+
+PostgreSQL Driver: Para conectar sua aplicação ao banco de dados PostgreSQL.</BR>
+
+Lombok: Para reduzir o código boilerplate (como getters, setters, e constructors).</BR>
+
+Spring Boot DevTools: Para melhorar a experiência de desenvolvimento com auto-reload de código.</BR>
+
+Spring Boot Docker Compose: Para gerenciar containers Docker diretamente do Spring Boot.</BR>
+
+Spring Security Test: Para realizar testes de integração focados em segurança.</BR>
+
+Spring Boot Starter Test: Para suporte de testes unitários e de integração.</BR>
+
+Essas dependências garantem que você tenha todos os recursos necessários para desenvolver uma aplicação Java moderna, robusta e escalável, integrando segurança, banco de dados e templates de interface com a facilidade do Spring Boot. </br>
+</br>
+
+<a href="https://start.spring.io/" target="_blank"><img src="(coloque-o-caminho-da-imagem-aqui)" alt="Spring Initializr" style="border:1px solid gray;"/></a>
+</br>
 </BR>
 2. Configuração Básica</BR>
 </BR>
@@ -190,7 +287,7 @@ npm install</br>
 Inicie o servidor de desenvolvimento:
 </br>
 ng serve</br>
-Banco de Dados - MariaDB:
+Banco de Dados - PostegreSql:
 
 Use Docker para iniciar o banco de dados:</br>
 
