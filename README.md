@@ -125,7 +125,7 @@ Dica: Por enquanto, deixe o arquivo baixado no seu diretório local. Vamos prime
 </BR>
 Baixe e instale o JDK 17 do site oficial.</BR>
 </BR>
-Configuração da variável de ambiente: Certifique-se de que a variável JAVA_HOME está configurada corretamente no sistema.
+Configuração da variável de ambiente: Certifique-se de que a variável JAVA_HOME está configurada corretamente no sistema.</BR>
 </BR>
 📚 Documentação da API Java 17 ao final
 </BR>
@@ -154,9 +154,9 @@ Baixe e instale a última versão do PostgreSQL.
 </BR>
 🚀Ferramentas de Administração para PostgreSQL:</BR>
 </BR>
-pgAdmin
+pgAdmin</BR>
 </BR>
-DataGrip
+DataGrip</BR>
 </BR>
 🚀6. Docker Desktop</BR>
 </BR>
