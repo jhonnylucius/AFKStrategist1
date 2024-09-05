@@ -127,7 +127,7 @@ Baixe e instale o JDK 17 do site oficial.</BR>
 </BR>
 Configuração da variável de ambiente: Certifique-se de que a variável JAVA_HOME está configurada corretamente no sistema.
 </BR>
-📚 Documentação da API Java 17
+📚 Documentação da API Java 17 ao final
 </BR>
 
 4. IntelliJ IDEA ou VS Code</BR>
@@ -144,13 +144,13 @@ Baixe a versão Ultimate se for estudante (grátis com a conta acadêmica).</BR>
 </BR>
 Baixe o VS Code do site oficial.
 </BR>
-📚 Documentação do VS Code</BR>
+📚 Documentação do VS Code ao final</BR>
 </BR>
 5. PostgreSQL</BR>
 </BR>
 Baixe e instale a última versão do PostgreSQL.
 </BR>
-📚 Documentação Oficial PostgreSQL</BR>
+📚 Documentação Oficial PostgreSQL ao final</BR>
 </BR>
 🚀Ferramentas de Administração para PostgreSQL:</BR>
 </BR>
@@ -181,7 +181,7 @@ Integração com o sistema operacional Windows.</BR>
 </BR>
 Interface gráfica amigável para gerenciamento de containers.</BR>
 </BR>
-📚 Documentação Docker Desktop para WSL
+📚 Documentação Docker Desktop para WSL ao final
 </BR>
 🚀7. Angular e Node.js</BR>
 </BR>
@@ -202,7 +202,7 @@ Copiar código
 npm install -g @angular/cli
 
 </BR>
-📚 Documentação Angular
+📚 Documentação Angular ao final
 </BR>
 📦 Checklist de Configuração Inicial</BR>
  🚀Instale o Java 17 e configure as variáveis de ambiente.</BR>
@@ -218,6 +218,91 @@ npm install -g @angular/cli
 🎉 Parabéns!</BR>
 Seu ambiente de desenvolvimento está pronto para começar a trabalhar no backend com Spring Boot, PostgreSQL e Docker! Agora você pode começar a codificar com um ambiente bem configurado e pronto para escalar.
 </BR>
+Aqui estão os links de documentação para as tecnologias e ferramentas mencionadas no README do seu projeto:
+
+---
+
+### 📚 Documentação das Dependências:
+
+1. **[Spring Web](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html)**
+   - Para criar APIs RESTful e aplicações web com Spring MVC.
+
+2. **[Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)**
+   - Para facilitar a integração com bancos de dados relacionais usando JPA e Hibernate.
+
+3. **[Spring Security](https://docs.spring.io/spring-security/site/docs/current/reference/html5/)**
+   - Para adicionar segurança e controle de autenticação e autorização na sua aplicação.
+
+4. **[Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)**
+   - Para renderização de páginas HTML no lado do servidor com o motor de templates Thymeleaf.
+
+5. **[Spring Actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html)**
+   - Para monitorar e gerenciar sua aplicação em produção.
+
+6. **[PostgreSQL JDBC Driver](https://jdbc.postgresql.org/documentation/head/)**
+   - Para conectar sua aplicação ao banco de dados PostgreSQL.
+
+7. **[Lombok](https://projectlombok.org/features/all)**
+   - Para reduzir o código boilerplate, como getters, setters, e construtores automáticos.
+
+8. **[Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/current/reference/html/using.devtools.html)**
+   - Para acelerar o desenvolvimento com auto-reload e outras ferramentas úteis.
+
+9. **[Spring Boot Docker Compose](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.docker.compose)**
+   - Para gerenciar containers Docker diretamente a partir da aplicação Spring Boot.
+
+10. **[Spring Boot Starter Test](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.testing)**
+    - Suporte para testes de unidade e integração no Spring Boot.
+
+11. **[Spring Security Test](https://docs.spring.io/spring-security/site/docs/current/reference/html5/#test)** 
+    - Para testes específicos de segurança com Spring Security.
+
+---
+
+### 📚 Documentação das Ferramentas Utilizadas:
+
+1. **[Java 17](https://docs.oracle.com/en/java/javase/17/docs/)**
+   - Documentação da API Java SE 17.
+
+2. **[Spring Framework](https://spring.io/projects/spring-framework)**
+   - Página oficial do Spring Framework.
+
+3. **[PostgreSQL](https://www.postgresql.org/docs/current/)**
+   - Documentação completa do PostgreSQL.
+
+4. **[Angular](https://angular.io/docs)**
+   - Documentação oficial do Angular.
+
+5. **[Node.js](https://nodejs.org/en/docs/)**
+   - Documentação oficial do Node.js.
+
+6. **[Docker](https://docs.docker.com/)**
+   - Documentação oficial do Docker.
+
+7. **[IntelliJ IDEA](https://www.jetbrains.com/idea/documentation/)**
+   - Documentação da IDE IntelliJ IDEA.
+
+8. **[Visual Studio Code](https://code.visualstudio.com/docs)**
+   - Documentação oficial do Visual Studio Code.
+
+9. **[WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/)**
+   - Guia de instalação e documentação oficial do WSL.
+
+10. **[AWS S3](https://docs.aws.amazon.com/s3/index.html)**
+    - Documentação oficial do Amazon S3.
+
+11. **[GitHub](https://docs.github.com/en)**
+    - Documentação oficial do GitHub.
+
+12. **[GitHub Actions](https://docs.github.com/en/actions)**
+    - Documentação oficial do GitHub Actions.
+
+13. **[Google Cloud](https://cloud.google.com/docs)**
+    - Documentação oficial do Google Cloud.
+
+---
+
+Com esses links, você terá todas as documentações oficiais das ferramentas e dependências usadas no seu projeto. Isso ajudará tanto você quanto qualquer colaborador a entender melhor cada tecnologia e como configurá-las adequadamente.
 
 # 🖥️ O PROJETO
 
