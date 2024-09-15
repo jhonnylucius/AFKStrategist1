@@ -443,10 +443,10 @@ Fork o repositório.
 Crie um branch para suas alterações (git checkout -b feature/nova-funcionalidade).
 Commit suas mudanças (git commit -m 'Adiciona nova funcionalidade').
 Push para o branch (git push origin feature/nova-funcionalidade).
-Abra um Pull Request.
-📄 Licença
+Abra um Pull Request.</br>
+</br>
+📄 Licença</br>
+</br>
 Este projeto está licenciado sob os termos da licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-💬 Agradecimentos
 
-A Rafael e Leonardo por terem topado esse desafio de aprendizado e crescimento na área da programação, Analise e Desenvolvimento de Sistemas.
