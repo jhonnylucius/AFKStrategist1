@@ -406,7 +406,7 @@ spring.datasource.password=${SPRING_DATASOURCE_PASSWORD}
 cloud.aws.credentials.access-key=${AWS_ACCESS_KEY_ID}
 cloud.aws.credentials.secret-key=${AWS_SECRET_ACCESS_KEY}
 cloud.aws.region.static=sa-east-1
-cloud.aws.s3.bucket=afk-union-app-images
+cloud.aws.s3.bucket=xxx-xxx-xxxx-images
 💻 Uso
 Acesse o Frontend:
 
